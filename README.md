@@ -1,4 +1,5 @@
 # React Redux Higher Order Components
+Based on Stephen Grider's "Advanced React and Redux" course.
 
 ```
 > git clone https://github.com/zitongliu/react-redux-higher-order-components.git
