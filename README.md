@@ -21,6 +21,9 @@ HOC are commonly used with third party libraries such as React Redux.
 connect is a higher order component that is specifically made to make communication with the Provider at the top of our application. The Provider wraps the redux store. It holds the redux store and watches it closely. Whenever the store changes, the Provider takes notice and broadcast down to any connected component - 'Here is the new state'.
 
 
-##
+## Custom HOC
+ResourceList component + require_authHOC = Composed Component that will check authentication status before rendering.
 
-ResourceList component + require_authHOC = Composed Component that will check authentication status before rendering
+```
+requireAuth(someComponent)
+```
